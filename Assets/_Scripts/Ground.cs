@@ -14,7 +14,7 @@ public class Ground : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		float offset = Time.time * speed % 1;  
+		float offset = (Time.time * speed % 1)/4;  
 		groundRenderer.material.mainTextureOffset = new Vector2 (0, -offset);
 	}
 

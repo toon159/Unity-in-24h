@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GameControl : MonoBehaviour {
+public class GameControl1 : MonoBehaviour {
 
 	// Note you can define several variables of the same type on one line
 	public GameObject blueBall, greenBall, redBall, orangeBall;
